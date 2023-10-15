@@ -34,7 +34,7 @@ const characters = [
 },
 ]
 
- const fumos = characters.filter((character) => character.fumofied == true);
+characters.filter((character) => character.fumofied == true) .forEach((character) => console.log(character.charName, character.fumoRelease))
 
 /*
 const fumoChars = fumos.map((fumofiedChar)=> ({
@@ -46,5 +46,5 @@ const fumoChars = fumos.map((fumofiedChar)=> ({
 const mostPopular = fumoChars.filter((popularest)=> popularest.appearceCount >= 20)
 console.log(mostPopular) */
 
- fumos.forEach((character) => console.log(character.charName)) 
- fumos.forEach((character) => console.log(character.fumoRelease)) 
+/*  .forEach((character) => console.log(character.charName)) 
+ fumos.forEach((character) => console.log(character.fumoRelease))  */
